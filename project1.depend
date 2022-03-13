@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1647177070 source:e:\program files\c++\cours\project1\main.cpp
+	<iostream>
+	<string>
+	"fonctionLogic.hpp"
+
+1647179375 e:\program files\c++\cours\project1\fonctionlogic.hpp
+	<string>
+
+1647179375 source:e:\program files\c++\cours\project1\fonctionlogic.cpp
+	<iostream>
+	<string>
+	"fonctionLogic.hpp"
+
