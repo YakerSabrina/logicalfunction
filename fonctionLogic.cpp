@@ -6,6 +6,7 @@ using namespace std;
 
 void and_function()
 {
+    //and_solution = a && b
     bool const two_false{false && false};
     bool const false_true{false && true};
     bool const true_false{true && false};
@@ -20,6 +21,7 @@ void and_function()
 
 void or_function()
 {
+    //or_solution = (a&&b)||(a&&!b)||(!a&&b)
     bool const two_false{(false && false)||(false && !false)||(!false && false)};
     bool const false_true{(false && true)||(false && !true)||(!false && true)};
     bool const true_false{(true && false)||(true && !false)||(!true && false)};
@@ -33,6 +35,7 @@ void or_function()
 
 void xor_fucntion()
 {
+    //xor_solution = (a && !b)||(!a && b)
     bool const two_false{(false && !false)||(!false && false)};
     bool const false_true{(false && !true)||(!false && true)};
     bool const true_false{(true && !false)||(!true && false)};

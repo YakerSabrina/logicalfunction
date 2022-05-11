@@ -7,11 +7,9 @@ using namespace std;
 
 int main()
 {
-    //and_function();
+    and_function();
     //or_function();
-    xor_fucntion();
-
-
+    //xor_fucntion();
     return 0;
 
 }
